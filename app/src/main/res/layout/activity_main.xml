@@ -54,7 +54,6 @@
                         android:layout_height="35dp"
                         android:layout_marginRight="15dp"
                         android:background="@drawable/rounded_background"
-
                         android:padding="7dp"
                         android:scaleType="centerInside"
                         android:src="@drawable/rs" />
@@ -112,6 +111,7 @@
                     android:hint="Search"></EditText>
 
                 <ImageView
+                    android:id="@+id/mic"
                     android:layout_width="20dp"
                     android:layout_height="20dp"
                     android:layout_marginLeft="10dp"
@@ -441,6 +441,7 @@
             <!-- Bestseller part-->
 
             <LinearLayout
+                android:id="@+id/bestSeller"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_below="@id/welcome_text"
@@ -956,7 +957,12 @@
 
 
             </LinearLayout>
+
+
+
+
         </LinearLayout>
     </ScrollView>
+
 
 </RelativeLayout>
