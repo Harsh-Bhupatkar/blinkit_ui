@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         window.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
         window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
         window.setStatusBarColor(ContextCompat.getColor(this,R.color.back));
-        micro=findViewById(R.id.mic);
+        micro=findViewById(R.id.allImage);
         micro.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
